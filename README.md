@@ -5,7 +5,7 @@ The True AWK (Aho/Kernighan/Weinberger 1988) written on Limbo. Intended to run o
 * Local and independent math.
 
 ## Install
-Place `module/awk.m` and `appl/cmd/awk.b` in system, modify `appl/cmd/mkfile` - add to `TARG` list:
+Place `module/awk.m`, `appl/cmd/awk.b` and `man/1/awk` in system, modify `appl/cmd/mkfile` (as noted in repo's `appl/cmd/mkfile`) - add to `TARG` list:
 ```conf
 	awk.dis\
 ```
